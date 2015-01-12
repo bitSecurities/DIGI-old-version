@@ -1401,7 +1401,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>The address to send the payment to (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1442,8 +1442,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DIGI address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte DIGI adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a DIGI address (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Zadajte DIGI adresu (napr. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
 </context>
 <context>
@@ -1465,8 +1465,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte DIGI adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Zadajte DIGI adresu (napr. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1538,8 +1538,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte DIGI adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Zadajte DIGI adresu (napr. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1559,8 +1559,8 @@ Adresa: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DIGI address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte DIGI adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a DIGI address (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Zadajte DIGI adresu (napr. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2231,8 +2231,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Načúvať spojeniam na &lt;port&gt; (prednastavené: 9333 alebo testovacia sieť: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8138 or testnet: 18138)</source>
+        <translation>Načúvať spojeniam na &lt;port&gt; (prednastavené: 8138 alebo testovacia sieť: 18138)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2266,8 +2266,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Počúvať JSON-RPC spojeniam na &lt;port&gt; (predvolené: 9332 or testnet: 19332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8137 or testnet: 18137)</source>
+        <translation>Počúvať JSON-RPC spojeniam na &lt;port&gt; (predvolené: 8137 or testnet: 18137)</translation>
     </message>
     <message>
         <location line="+37"/>

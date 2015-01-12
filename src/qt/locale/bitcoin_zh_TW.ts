@@ -1407,8 +1407,8 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>付款的目標位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>付款的目標位址 (比如說 DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DIGI address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>輸入莱特幣位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a DIGI address (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>輸入莱特幣位址 (比如說 DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>用來簽署訊息的位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>用來簽署訊息的位址 (比如說 DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1544,8 +1544,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>簽署該訊息的位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>簽署該訊息的位址 (比如說 DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1565,8 +1565,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DIGI address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>輸入莱特幣位址 (比如說 Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a DIGI address (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>輸入莱特幣位址 (比如說 DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2244,8 +2244,8 @@ Address: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候連線 (預設: 9333, 或若為測試網路: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8138 or testnet: 18138)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候連線 (預設: 8138, 或若為測試網路: 18138)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2279,8 +2279,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 9332, 或若為測試網路: 19332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8137 or testnet: 18137)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線 (預設: 8137, 或若為測試網路: 18137)</translation>
     </message>
     <message>
         <location line="+37"/>

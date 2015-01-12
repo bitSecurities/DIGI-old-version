@@ -35,7 +35,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x12634bbf0325c48a0af00ddadcc1fdbf16b6e9281870a1e638cce7125839872f");
+uint256 hashGenesisBlock("0x9117b84b7b5f8021a7df36c50f4813a74bf5452aeb2b4c6ec4251643190a211a");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // DIGI: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -1087,19 +1087,19 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 30 * COIN;
+    int64 nSubsidy = 15 * COIN;
 	if (nHeight <= 10) {
 		nSubsidy = 13800000 * COIN;
 	}
 	else {
-		nSubsidy = 30 * COIN;
+		nSubsidy = 15 * COIN;
 	}
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 3.5 * 24 * 60 * 60; // DIGI: 3.5 days
-static const int64 nTargetSpacing = 2 * 60; // DIGI: 2 minutes 
+static const int64 nTargetTimespan = 10 * 30; // DIGI: 5 minutes
+static const int64 nTargetSpacing = 1 * 60; // DIGI: 1 minute
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2749,7 +2749,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x19f091a093dacf7b91984644c9a096ae89feb23651763c01a6347adbd7dcb1cc");
+        hashGenesisBlock = uint256("0x9117b84b7b5f8021a7df36c50f4813a74bf5452aeb2b4c6ec4251643190a211a");
     }
 
     //
@@ -2782,7 +2782,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "Shoppers losing interest in the Boxing Day sales The Times 27122014";
+        const char* pszTimestamp = "06/Jan/2015 UK: Starting final compilation of DIGI";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2794,56 +2794,54 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1419641769;
+        block.nTime    = 1420669876;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 1234601;
+        block.nNonce   = 482543;
 
         if (fTestNet)
         {
-            block.nTime    = 1419641780;
-            block.nNonce   = 401935;
+            block.nTime    = 1420669876;
+            block.nNonce   = 482543;
         }
 
-		//// debug print
-		printf("%s\n", block.GetHash().ToString().c_str());
-		printf("%s\n", hashGenesisBlock.ToString().c_str());
-		printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-		assert(block.hashMerkleRoot == uint256("0xf3dabb39c25cb3d067c299f499a2b5cf94eb7f0581b4cc3495e87d5e2754165c"));
+        //// debug print
+        uint256 hash = block.GetHash();
+        printf("%s\n", hash.ToString().c_str());
+        printf("%s\n", hashGenesisBlock.ToString().c_str());
+        printf("%s\n", block.hashMerkleRoot.ToString().c_str());
+        assert(block.hashMerkleRoot == uint256("0x9863d171782afd647c24e2bb4751d18f88883073ebb5ab6451983e3ba5dd6628"));
+		if (true && block.GetHash() != hashGenesisBlock)
+        {
+            printf("Searching for genesis block...\n");
+            // This will figure out a valid hash and Nonce if you're
+            // creating a different genesis block:
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+            uint256 thash;
+            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
 
-		// If genesis block hash does not match, then generate new genesis hash.
-		if (false && block.GetHash() != hashGenesisBlock)
-		{
-			printf("Searching for genesis block...\n");
-			// This will figure out a valid hash and Nonce if you're
-			// creating a different genesis block:
-			uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
-			uint256 thash;
-			char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
-
-			loop
-			{
-				scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
-				if (thash <= hashTarget)
-					break;
-				if ((block.nNonce & 0xFFF) == 0)
-				{
-					printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-				}
-				++block.nNonce;
-				if (block.nNonce == 0)
-				{
-					printf("NONCE WRAPPED, incrementing time\n");
-					++block.nTime;
-				}
-			}
-			printf("block.nTime = %u \n", block.nTime);
-			printf("block.nNonce = %u \n", block.nNonce);
-			printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
-		}
-
-		block.print();
-		assert(block.GetHash() == hashGenesisBlock);
-
+            loop
+            {
+                scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+                if (thash <= hashTarget)
+                    break;
+                if ((block.nNonce & 0xFFF) == 0)
+                {
+                    printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+                }
+                ++block.nNonce;
+                if (block.nNonce == 0)
+                {
+                    printf("NONCE WRAPPED, incrementing time\n");
+                    ++block.nTime;
+                }
+            }
+            printf("block.nTime = %u \n", block.nTime);
+            printf("block.nNonce = %u \n", block.nNonce);
+            printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+            
+            }
+        block.print();
+        assert(hash == hashGenesisBlock);
 
         // Start new block file
         try {

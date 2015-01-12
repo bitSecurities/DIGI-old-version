@@ -1407,8 +1407,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>O endereço para onde enviar o pagamento  (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>O endereço para onde enviar o pagamento  (p.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DIGI address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduza um endereço DIGI (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a DIGI address (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Introduza um endereço DIGI (p.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>O endereço a utilizar para assinar a mensagem (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>O endereço a utilizar para assinar a mensagem (p.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1544,8 +1544,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>O endereço utilizado para assinar a mensagem (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>O endereço utilizado para assinar a mensagem (p.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1565,8 +1565,8 @@ Endereço: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DIGI address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduza um endereço DIGI (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a DIGI address (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Introduza um endereço DIGI (p.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2237,8 +2237,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Escute por ligações em &lt;port&gt; (por defeito: 9333 ou testnet: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8138 or testnet: 18138)</source>
+        <translation>Escute por ligações em &lt;port&gt; (por defeito: 8138 ou testnet: 18138)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2272,8 +2272,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Escutar por ligações JSON-RPC em &lt;port&gt; (por defeito: 9332 ou rede de testes: 19332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8137 or testnet: 18137)</source>
+        <translation>Escutar por ligações JSON-RPC em &lt;port&gt; (por defeito: 8137 ou rede de testes: 18137)</translation>
     </message>
     <message>
         <location line="+37"/>

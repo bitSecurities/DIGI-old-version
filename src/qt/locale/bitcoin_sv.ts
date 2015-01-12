@@ -1408,8 +1408,8 @@ Adress: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adressen som betalningen skall skickas till  (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Adressen som betalningen skall skickas till  (t.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1449,8 +1449,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DIGI address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ange en DIGI-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a DIGI address (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Ange en DIGI-adress (t.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
 </context>
 <context>
@@ -1472,8 +1472,8 @@ Adress: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adressen att signera meddelandet med  (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Adressen att signera meddelandet med  (t.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1545,8 +1545,8 @@ Adress: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adressen som meddelandet var signerat med  (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Adressen som meddelandet var signerat med  (t.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1566,8 +1566,8 @@ Adress: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DIGI address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ange en DIGI-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a DIGI address (e.g. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</source>
+        <translation>Ange en DIGI-adress (t.ex. DS7BLaqEwe83XZqrLdDBizcQTnyvV63U5W)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2238,8 +2238,8 @@ Adress: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Lyssna efter anslutningar på &lt;port&gt; (förvalt: 9333 eller testnet: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 8138 or testnet: 18138)</source>
+        <translation>Lyssna efter anslutningar på &lt;port&gt; (förvalt: 8138 eller testnet: 18138)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2273,8 +2273,8 @@ Adress: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förvalt: 9332 eller testnet: 19332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8137 or testnet: 18137)</source>
+        <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förvalt: 8137 eller testnet: 18137)</translation>
     </message>
     <message>
         <location line="+37"/>
