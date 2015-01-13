@@ -2,13 +2,18 @@ DIGI integration/staging tree
 ================================
 
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 DIGI Developers
+Copyright (c) 2009-2015 Bitcoin Developers
+Copyright (c) 2011-2015 DIGI Developers
 
 What is DIGI?
 ----------------
 
-DIGI is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+DIGI is a clone of Litecoin - a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+- 60 second block targets
+- ~210 million total coins
+- 138 million premined coins for crowdtrading platform www.capitaldigi.com
+- 15 coins per block
+- 10 blocks to retarget difficulty
 
 License
 -------
