@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.7.4
+!define VERSION 1.0.0.4
 !define COMPANY "DIGI project"
 !define URL http://www.DIGI.org/
 
